@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.example.AppTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2026-05-06T23:36:53.945Z" hostname="DESKTOP-B1D6SEO" time="0.115">
+  <properties/>
+  <testcase name="testPrintOrderSummaryRegular()" classname="org.example.AppTest" time="0.065"/>
+  <testcase name="testCalc()" classname="org.example.AppTest" time="0.008"/>
+  <testcase name="testPrintOrderSummaryMultipleItems()" classname="org.example.AppTest" time="0.002"/>
+  <testcase name="testPrintOrderSummaryMember()" classname="org.example.AppTest" time="0.002"/>
+  <testcase name="testCalcSymmetry()" classname="org.example.AppTest" time="0.001"/>
+  <system-out><![CDATA[Order Summary:
+Customer: Alice
+Items:
+  - Book: 2 x $10.0
+Total Price: $20.00
+Order Summary:
+Customer: Sara
+Items:
+  - Notebook: 3 x $8.0
+  - Pencil: 5 x $2.0
+Total Price: $34.00
+Order Summary:
+Customer: Bob
+Items:
+  - Pen: 4 x $5.0
+Total Price: $18.00
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
